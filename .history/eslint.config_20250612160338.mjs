@@ -16,8 +16,8 @@ const eslintConfig = [
     rules: {
       // Allow usage of `any` type
       "@typescript-eslint/no-explicit-any": "off",
-"react/no-unescaped-entities": "off",
-      // Ignore unused variables
+
+      // Ignore unused variables, but still warn if variables start with _
       "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
     },
   },
